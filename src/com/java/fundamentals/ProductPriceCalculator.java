@@ -23,7 +23,7 @@ public class ProductPriceCalculator {
         float productDiscountedAmount = (maxRetailPrice * discountPercentage)/100.0F ;
         float priceAfterDiscount = maxRetailPrice - productDiscountedAmount;
         System.out.println("-----Product Price Calculation ------");
-        System.out.println("ProductName : " + productName);
+        System.out.println("Product Name : " + productName);
         System.out.println("Product Id : " + productId);
         System.out.println("Product Discounted Amount : " + productDiscountedAmount );
         System.out.println("Price after Discount : " + priceAfterDiscount);
