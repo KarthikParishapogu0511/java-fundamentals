@@ -1,5 +1,7 @@
 package com.java.fundamentals;
 
+import java.util.Scanner;
+
 public class Operators {
     public static void main(String[] args) {
         //Arithmetic Operators
@@ -51,8 +53,37 @@ public class Operators {
         900 *2.5% centralTax
         900 * 2.5% stateTax
         finalPrice = 900 + 22.5+22.5 = 945
-
-
          */
+
+        //logical and relational operators
+        int age =20;
+        System.out.println(age == 30);
+
+        // logical operators -> &&,||,^
+
+        // Logical And (&&)
+        // if any one of the condition is false then the entire resultant is false
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter Customer Age : ");
+        int customerAge = scanner.nextInt();
+
+        System.out.println("Enter Membership : ");
+        char membership = scanner.next().charAt(0);
+
+        System.out.println(customerAge >= 50 && membership == 'G');
+
+        // Logical OR (||)
+        // if any one of the condition is true then the entire resultant is true
+        System.out.println(customerAge >= 50 || membership == 'G');
+
+        // Logical XOR (^)
+        // if both the expressions are evaluated to the same result then the resultant is false
+        // T,T ->F
+        // F,T -> T
+        // T,F -> T
+        // F,F -> F
+
+
+
     }
 }
