@@ -25,7 +25,7 @@ public class PrintNumFromOneToN {
         }while(n <= num);
         System.out.println();
         System.out.println("-----------------------");
-        
+
         //using while loop Logic
         System.out.println("Using while loop logic ");
         int a =1;
