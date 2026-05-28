@@ -1,4 +1,4 @@
-package com.java.fundamentals.codingQuestions;
+package com.java.fundamentals.codingQuestions.levelOne;
 
 import java.util.Scanner;
 
