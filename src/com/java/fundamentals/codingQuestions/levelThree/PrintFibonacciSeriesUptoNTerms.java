@@ -6,7 +6,7 @@ public class PrintFibonacciSeriesUptoNTerms {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         // Fibonacci Series is  sequence where each number is sum of previous two numbers
-        
+
         System.out.println("Enter a number: ");
         int n = input.nextInt();
         input.close();
